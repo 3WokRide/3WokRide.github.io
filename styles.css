@@ -1,0 +1,84 @@
+.center, .advance_form, .search_bar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button_layout, .advance_form input[type=submit]:hover, .advance_form input[type=submit], .search_bar form input:hover, .search_bar form input:focus, .search_bar form input[type=submit] {
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #303134;
+}
+
+* {
+  font-family: Arial;
+  background-color: #202124;
+  color: white;
+}
+
+.navigation {
+  text-align: right;
+  padding: 10px;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+.search_bar {
+  text-align: center;
+}
+.search_bar form input {
+  border: 1px solid #9aa0a6;
+  background-color: #202124;
+  margin: 5px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.search_bar form input[type=submit] {
+  margin-top: 20px;
+  background-color: #303134;
+}
+.search_bar form input[type=submit]:hover {
+  border: 1px solid #9aa0a6;
+}
+.search_bar form input:hover, .search_bar form input:focus {
+  border: 1px solid #303134;
+  background-color: #303134;
+}
+
+#search_box {
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+}
+
+.advance_form {
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+.advance_form input[type=text] {
+  border: 1px solid #9aa0a6;
+  margin: 5px;
+  margin-left: 20px;
+}
+.advance_form input[type=submit] {
+  border: 1px solid #3079ed;
+  background-color: #3079ed;
+  margin-left: 20px;
+}
+.advance_form input[type=submit]:hover {
+  border: 1px solid #4d90fe;
+  background-color: #4d90fe;
+}
+
+/*# sourceMappingURL=styles.css.map */
